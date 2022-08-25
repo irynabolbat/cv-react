@@ -1,0 +1,27 @@
+.skills {
+    color: darkslateblue;
+    margin-left: 5%;
+}
+
+.skills_header {
+    padding-left: 7%;
+    border-bottom: 1px solid darkslateblue;
+    width: 80%;
+}
+
+.skills_wrapper {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+
+.skill_container {
+    width: 100%;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-bottom: 3%;
+    gap: 5px;
+}

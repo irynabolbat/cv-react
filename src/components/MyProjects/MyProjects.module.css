@@ -1,0 +1,66 @@
+.my_projects {
+    color: darkslateblue;
+    margin-left: 5%;
+}
+
+.my_projects_header {
+    padding-left: 5%;
+    border-bottom: 1px solid darkslateblue;
+    width: 80%;
+}
+
+.my_projects_wrapper {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
+
+.my_projects_container {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project_link {
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    color: darkslateblue;
+}
+
+.project_link:hover {
+    color: #877acc;
+}
+
+.my_work_in_project {
+    margin-bottom: 2%;
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+    .my_projects_wrapper {
+        grid-template-columns: 100%;
+        padding-left: 4%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .my_projects_wrapper {
+        grid-template-columns: 100%;
+        padding-left: 4%;
+    }
+
+    .project_link {
+        grid-template-columns: 6% 94%;
+    }
+
+    .my_projects {
+        opacity: 0;
+        transition: all 3.5s;
+    }
+
+    .my_projects.active {
+        opacity: 1;
+    }
+}

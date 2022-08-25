@@ -1,0 +1,30 @@
+.languages {
+    color: darkslateblue;
+    margin-left: 5%;
+}
+
+.languages_header {
+    padding-left: 5%;
+    border-bottom: 1px solid darkslateblue;
+    width: 80%;
+}
+
+.languages_wrapper {
+    list-style-type: none;
+}
+
+.languages_container {
+    width: 50%;
+}
+
+.language {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 580px) {
+    .languages {
+        padding-bottom: 2%;
+    }
+}

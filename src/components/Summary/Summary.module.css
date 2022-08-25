@@ -1,0 +1,27 @@
+.summary_wrapper {
+    color: darkslateblue;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.summary_header {
+    padding-left: 5%;
+    border-bottom: 1px solid darkslateblue;
+    width: 80%;
+}
+
+.summary_text {
+    width: 80%;
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 580px) {
+    .summary_wrapper {
+        opacity: 0;
+        transition: all 1.5s;
+    }
+
+    .summary_wrapper.active{
+        opacity: 1;
+    }
+}
