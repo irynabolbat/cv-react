@@ -32,7 +32,7 @@ const Contacts = () => {
                     </a>
                 </li>
                 <li className={`${style.contact_link_container} ${style.location}`}>
-                    <span>
+                    <span className={style.location_link}>
                         <GeoAlt/>
                         Kharkiv, Ukraine
                     </span>

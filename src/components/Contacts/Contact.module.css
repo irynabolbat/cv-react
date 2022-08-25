@@ -25,6 +25,13 @@
     cursor: auto;
 }
 
+.location_link {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    gap: 5px;
+    margin-bottom: 5%;
+}
+
 a {
     text-decoration: none;
 }
