@@ -27,7 +27,7 @@ const MyProjects = () => {
                     </ul>
                 </li>
                 <li className={style.my_projects_container}>
-                    <a href='https://online-store-in-react.herokuapp.com/' className={style.project_link}>
+                    <a href='https://irinabolbat.github.io/online-store-react/' className={style.project_link}>
                         <Cursor/>
                         Online shop (first React project)
                     </a>
