@@ -30,13 +30,13 @@
 }
 
 .profile_info {
-    padding-top: 7%;
-  color: darkslateblue;
-  text-align: center;
+    padding-top: 4%;
+    color: darkslateblue;
+    text-align: center;
 }
 
 .profile_position {
-  color: #877acc;
+    color: #877acc;
 }
 
 .profile_left {
