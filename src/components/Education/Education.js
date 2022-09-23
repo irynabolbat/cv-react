@@ -20,14 +20,12 @@ const Education = () => {
                             <Cursor />
                             Master of Tourism -2021, Kharkiv National University by Karazin, Ukraine
                         </span>
-                        {/*<span className={style.education}>Kharkiv National University by Karazin, Ukraine</span>*/}
                     </li>
                     <li className={style.education_container}>
                         <span className={style.education}>
                             <Cursor />
                             Bachelor of Tourism -2020, Kharkiv National University by Karazin, Ukraine
                         </span>
-                        {/*<span className={style.education}>Kharkiv National University by Karazin, Ukraine</span>*/}
                     </li>
                 </ul>
             <Courses/>
