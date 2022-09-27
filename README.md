@@ -1,1 +1,1 @@
-https://irinabolbat.github.io/cv-react/
+Demo: https://irinabolbat.github.io/cv-react/
