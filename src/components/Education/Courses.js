@@ -4,7 +4,7 @@ import {Cursor} from "react-bootstrap-icons";
 
 const Courses = () => {
     const myCourses = ['React, Redux: January 2022 - present', 'Java Script: June 2021 - present',
-        'HTML, CSS: May 2021 - June 2021', 'QA Engineer: November 2020 - May 2021']
+        'HTML, CSS: May 2021 - June 2021']
     return (
         <div>
             <h3 className={style.education_header}>Courses</h3>
