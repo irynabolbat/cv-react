@@ -3,7 +3,7 @@ import style from './MyProjects.module.css'
 import {Cursor} from "react-bootstrap-icons";
 
 const MyProjects = () => {
-    const myTasks = ['Login/Registration form', 'User settings', 'Add firebase', 'Hamburger menu', 'Feedback page', 'Analytics']
+    const myTasks = ['Login/Registration form', 'User settings', 'Adding the firebase', 'Hamburger menu', 'Feedback page', 'Analytics']
     const [scroll, setScroll] = useState(false)
 
     useEffect(() => {
@@ -13,14 +13,14 @@ const MyProjects = () => {
     }, []);
     return (
         <div className={!scroll ? style.my_projects : `${style.my_projects} ${style.active}`}>
-            <h3 className={style.my_projects_header}>My projects</h3>
+            <h3 className={style.my_projects_header}>Projects</h3>
             <ul className={style.my_projects_wrapper}>
                 <li className={style.my_projects_container}>
                     <a href='https://eleks-bootcamp-water-control.netlify.app/' target="_blank" className={style.project_link}>
                         <Cursor/>
                         Water control (Work in team)
                     </a>
-                    <div className={style.my_responsibility}>My responsibility:</div>
+                    <div className={style.my_responsibility}>My responsibilities:</div>
                     <ul>
                         {
                             myTasks.map((task, index) => (
