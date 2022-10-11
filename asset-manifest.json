@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.b07bf690.css",
-    "main.js": "/cv-react/static/js/main.ccb78d09.js",
+    "main.css": "/cv-react/static/css/main.7dffbaba.css",
+    "main.js": "/cv-react/static/js/main.4a77f12d.js",
     "static/media/Iryna Bolbat.png": "/cv-react/static/media/Iryna Bolbat.5c8e9eca09781575caa2.png",
     "index.html": "/cv-react/index.html",
-    "main.b07bf690.css.map": "/cv-react/static/css/main.b07bf690.css.map",
-    "main.ccb78d09.js.map": "/cv-react/static/js/main.ccb78d09.js.map"
+    "main.7dffbaba.css.map": "/cv-react/static/css/main.7dffbaba.css.map",
+    "main.4a77f12d.js.map": "/cv-react/static/js/main.4a77f12d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b07bf690.css",
-    "static/js/main.ccb78d09.js"
+    "static/css/main.7dffbaba.css",
+    "static/js/main.4a77f12d.js"
   ]
 }
