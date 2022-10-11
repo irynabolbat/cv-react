@@ -3,7 +3,7 @@ import style from "./Languages.module.css";
 import {Cursor} from "react-bootstrap-icons";
 
 const Languages = () => {
-    const myLanguages = ['Russian', 'Ukrainian', 'English']
+    const myLanguages = ['Ukrainian', 'English - Intermediate', 'Russian']
     return (
         <div className={style.languages}>
             <h3 className={style.languages_header}>Languages</h3>

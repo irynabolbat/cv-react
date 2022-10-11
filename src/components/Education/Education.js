@@ -8,27 +8,27 @@ const Education = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 300);
+            setScroll(window.scrollY > 800);
         });
     }, []);
     return (
         <div className={!scroll ? style.my_education : `${style.my_education} ${style.active}`}>
+            <Courses/>
             <h3 className={style.education_header}>Education</h3>
-                <ul className={style.education_wrapper}>
-                    <li className={style.education_container}>
+            <ul className={style.education_wrapper}>
+                <li className={style.education_container}>
                         <span className={style.education}>
-                            <Cursor />
+                            <Cursor/>
                             Master of Tourism -2021, V. N. Karazin Kharkiv National University, Ukraine
                         </span>
-                    </li>
-                    <li className={style.education_container}>
+                </li>
+                <li className={style.education_container}>
                         <span className={style.education}>
-                            <Cursor />
+                            <Cursor/>
                             Bachelor of Tourism -2020, V. N. Karazin Kharkiv National University, Ukraine
                         </span>
-                    </li>
-                </ul>
-            <Courses/>
+                </li>
+            </ul>
         </div>
     );
 };

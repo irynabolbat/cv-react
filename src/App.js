@@ -14,7 +14,7 @@ function App() {
             <div className={style.left_side}>
                 <div className={`${style.profile_info} ${style.profile_left}`}>
                     <h1 className={style.name_header}>Iryna Bolbat</h1>
-                    <h2 className={style.profile_position}>Trainee frontend developer (React)</h2>
+                    <h2 className={style.profile_position}>Junior/Trainee Front-end Developer (React)</h2>
                 </div>
                 <div className={style.profile_photo}>
                     <img src={photo} className={style.photo}/>
@@ -27,11 +27,11 @@ function App() {
             <div className={style.right_side}>
                 <div className={`${style.profile_info} ${style.profile_right}`}>
                     <h1>Iryna Bolbat</h1>
-                    <h2 className={style.profile_position}>Trainee frontend developer (React)</h2>
+                    <h2 className={style.profile_position}>Junior/Trainee Front-end Developer (React)</h2>
                 </div>
                 <Summary/>
-                <Education/>
                 <MyProjects/>
+                <Education/>
             </div>
         </div>
     );

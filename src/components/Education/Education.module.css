@@ -16,13 +16,20 @@
 }
 
 .education_container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    margin-bottom: 3%;
 }
 
 .education {
     margin-bottom: 3%;
     display: grid;
     grid-template-columns: 10% 90%;
+}
+
+.course_learned {
+    width: 90%;
 }
 
 @media (min-width: 581px) and (max-width: 768px) {
@@ -57,5 +64,9 @@
 
     .education {
         grid-template-columns: 7% 93%;
+    }
+
+    .course_learned {
+        width: 100%;
     }
 }

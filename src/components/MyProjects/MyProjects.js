@@ -3,12 +3,13 @@ import style from './MyProjects.module.css'
 import {Cursor} from "react-bootstrap-icons";
 
 const MyProjects = () => {
-    const myTasks = ['Login/Registration form', 'User settings', 'Adding the firebase', 'Hamburger menu', 'Feedback page', 'Analytics']
+    const myTasksWaterControl = ['Login/Registration form', 'User settings', 'Adding the firebase', 'Hamburger menu', 'Feedback page', 'Analytics']
+    const myTasksOnlineStore = ['Pagination', 'Filters', 'Skeleton', 'Modal window', 'Redux', 'Notifications']
     const [scroll, setScroll] = useState(false)
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            setScroll(window.scrollY > 500);
+            setScroll(window.scrollY > 300);
         });
     }, []);
     return (
@@ -20,10 +21,10 @@ const MyProjects = () => {
                         <Cursor/>
                         Water control (Work in team)
                     </a>
-                    <div className={style.my_responsibility}>My responsibilities:</div>
+                    <div className={style.my_experience}>My responsibilities:</div>
                     <ul>
                         {
-                            myTasks.map((task, index) => (
+                            myTasksWaterControl.map((task, index) => (
                                 <li className={style.my_work_in_project} key={index+1}>{task}</li>
                             ))
                         }
@@ -34,6 +35,14 @@ const MyProjects = () => {
                         <Cursor/>
                         Online shop (first React project)
                     </a>
+                    <div className={style.my_experience}>Gained experience:</div>
+                    <ul>
+                        {
+                            myTasksOnlineStore.map((task, index) => (
+                                <li className={style.my_work_in_project} key={index+1}>{task}</li>
+                            ))
+                        }
+                    </ul>
                 </li>
             </ul>
         </div>
