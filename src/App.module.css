@@ -37,7 +37,6 @@
 
 .profile_position {
     color: #877acc;
-    width: 90%;
 }
 
 .profile_left {
@@ -46,6 +45,11 @@
 
 .name_header {
     margin: 0;
+}
+
+.mobile_position {
+    width: 90%;
+    padding: 0 5%;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

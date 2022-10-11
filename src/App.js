@@ -14,7 +14,7 @@ function App() {
             <div className={style.left_side}>
                 <div className={`${style.profile_info} ${style.profile_left}`}>
                     <h1 className={style.name_header}>Iryna Bolbat</h1>
-                    <h2 className={style.profile_position}>Junior/Trainee Front-end Developer (React)</h2>
+                    <h2 className={`${style.profile_position} ${style.mobile_position}`}>Junior/Trainee Front-end Developer (React)</h2>
                 </div>
                 <div className={style.profile_photo}>
                     <img src={photo} className={style.photo}/>
