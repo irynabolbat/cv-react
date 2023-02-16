@@ -6,6 +6,7 @@ const MyProjects = () => {
     const myTasksFoodRecipes = ['Api', 'Lazy loading', 'React Select with async item searching']
     const myTasksOnlineStore = ['Pagination', 'Filters', 'Skeleton', 'Modal window', 'Redux', 'Notifications']
     const myTasksWaterControl = ['Login/Registration form', 'User settings', 'Adding the firebase', 'Hamburger menu', 'Feedback page', 'Analytics']
+    const myTasksGames = ['PWA', 'Localization', 'LocalStorage', 'Work with time']
     const [scroll, setScroll] = useState(false)
 
     useEffect(() => {
@@ -17,6 +18,21 @@ const MyProjects = () => {
         <div className={!scroll ? style.my_projects : `${style.my_projects} ${style.active}`}>
             <h3 className={style.my_projects_header}>Projects</h3>
             <ul className={style.my_projects_wrapper}>
+                <li className={style.my_projects_container}>
+                    <a href='https://irinabolbat.github.io/games/' target="_blank" className={style.project_link}>
+                        <Cursor/>
+                        Games (Work with PWA)
+                    </a>
+                    <div className={style.my_experience}>Gained experience:</div>
+                    <ul>
+                        {
+                            myTasksGames.map((task, index) => (
+                                <li className={style.my_work_in_project} key={index+1}>{task}</li>
+                            ))
+                        }
+                    </ul>
+                </li>
+
                 <li className={style.my_projects_container}>
                     <a href='https://irinabolbat.github.io/food-recipes/' target="_blank" className={style.project_link}>
                         <Cursor/>
